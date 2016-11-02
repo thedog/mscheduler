@@ -1,2 +1,3 @@
 # mscheduler
-Mscheduler is a meeting php application with voting capability.
+Mscheduler is a php based application to organize meetings 
+with polling capability 2.
