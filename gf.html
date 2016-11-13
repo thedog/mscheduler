@@ -27,6 +27,18 @@
 					
 			</script>
 			
+			<script>
+			
+					$(document).ready(function(){
+						$("button#hit3").click(function () {
+							var text = $("input#datetimepicker4").val();
+							$("input#en3").val(text);
+						});
+					});
+					
+			</script>
+			
+			
 			
 			<script>
 			
@@ -38,6 +50,19 @@
 					});
 					
 			</script>
+			
+			
+			<script>
+			
+					$(document).ready(function(){
+						$("button#hit4").click(function () {
+							var text = $("input#datetimepicker5").val();
+							$("input#en4").val(text);
+						});
+					});
+					
+			</script>
+			
 			
 			
 	</head>
@@ -78,6 +103,8 @@
 								<p class="end">Επιλογή λήξης συνάντησης</p>
 					
 							<div class="w3-mystart w3-left"><input id="datetimepicker4" type="text"></div>
+							
+						
 			
 								<script>
 			
@@ -86,8 +113,8 @@
 									lang:'en',
 									theme:'dark',
 									step:30,
-									opened:true,
 									startDate:new Date(),
+									opened:true,
 									inline:true
 									});
 			
@@ -113,15 +140,41 @@
 								</script>
 								
 								
-								<div class="w3-display-bottomleft w3-enarksh">
-								<button id="hit" name="enarksh">Έναρξη</button>
-								<input  id="en" name="arxh" type="text" readonly>
-								</div>
 								
-								<div class="w3-display-bottomright w3-lhksh">
-								<button id="hit2" name="lhksh">Λήξη</button>
-								<input id="en2" name="telos"type="text" readonly>
-								</div>
+									<div class="w3-display-bottomleft w3-mystart1">
+									
+										<button class="w3-btn w3-green w3-border"id="hit" name="enarksh">Έναρξη 1</button>
+										<input  id="en" name="arxh" type="text" readonly>
+										<button type="reset" onclick="document.getElementById('en').value=''" value="Reset">Reset</button>
+										
+									</div>
+									
+									<div class="w3-display-bottomleft w3-mystart2">
+									
+										<button  class="w3-btn w3-red w3-border" id="hit3" name="enarksh2">Έναρξη 2</button>
+										<input  id="en3" name="arxh2" type="text" readonly>
+										<button type="reset" onclick="document.getElementById('en3').value=''" value="Reset">Reset</button>
+										
+									</div>
+									
+									<div class="w3-display-bottomright w3-myend1">
+									
+										<button class="w3-btn w3-green w3-border" id="hit2" name="lhksh">Λήξη 1</button>
+										<input id="en2" name="telos"type="text" readonly>
+										<button type="reset" onclick="document.getElementById('en2').value=''" value="Reset">Reset</button>
+										
+									</div>
+								
+								
+									<div class="w3-display-bottomright w3-myend2">
+									
+										<button class="w3-btn w3-red w3-border" id="hit4" name="lhksh2">Λήξη 2</button>
+										<input id="en4" name="telos2"type="text" readonly>
+										<button type="reset" onclick="document.getElementById('en4').value=''" value="Reset">Reset</button>
+										
+									</div>
+								
+								
 								
 								<input type="submit" name="pros3" class="w3-mypos w3-blue w3-large" value="Επόμενο &raquo;">
 					

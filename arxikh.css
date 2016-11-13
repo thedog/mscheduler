@@ -46,9 +46,13 @@
 
 .mysettings
 {
-	margin-right:517px;
-	font-size:22px;
+	margin-right:512px;
+	font-size:18px;
 	
+}
+
+textarea {
+   resize: none;
 }
 
 #demo

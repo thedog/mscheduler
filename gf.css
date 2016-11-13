@@ -24,15 +24,15 @@ body
 
 .w3-mystart
 {
-		margin-top:0px;
-		margin-left:130px;
+	margin-top:0px;
+	margin-left:130px;
 	
 }
 
 .w3-myend
 {
-		margin-top:-25px;
-		margin-right:140px;
+	margin-top:-25px;
+	margin-right:140px;
 		
 }
 
@@ -58,18 +58,36 @@ body
 	margin-top:-50px;
 	font-size:20px;
 }
-.w3-enarksh
+
+
+.w3-mystart1
 {
-	margin-left:560px;
-	margin-bottom:200px;
+	margin-left:510px;
 	
+	margin-bottom:210px;
 }
 
-.w3-lhksh
+.w3-mystart2
 {
-	margin-right:600px;
-	margin-bottom:200px;
+	margin-left:510px;
+	
+	margin-bottom:160px;
 }
+
+
+.w3-myend1
+{
+	margin-right:520px;
+	margin-bottom:212px;
+}
+
+.w3-myend2
+{
+	margin-right:520px;
+	margin-bottom:164px;
+}
+
+
 
 #dem
 {
